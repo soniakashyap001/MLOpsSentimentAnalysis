@@ -10,6 +10,9 @@ from nltk.corpus import stopwords
 import string
 import re
 import dagshub
+from dagshub import dagshub_logger
+import dagshub.auth
+
 
 import warnings
 warnings.simplefilter("ignore", UserWarning)
@@ -69,8 +72,8 @@ def normalize_text(text):
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri('https://dagshub.com/soniakashyap001/MLOpsSentimentAnalysis.mlflow')
-dagshub.init(repo_owner='soniakashyap001', repo_name='MLOpsSentimentAnalysis', mlflow=True)
+#mlflow.set_tracking_uri('https://dagshub.com/soniakashyap001/MLOpsSentimentAnalysis.mlflow')
+#dagshub.init(repo_owner='soniakashyap001', repo_name='MLOpsSentimentAnalysis', mlflow=True)
 # -------------------------------------------------------------------------------------
 
 # Below code block is for production use

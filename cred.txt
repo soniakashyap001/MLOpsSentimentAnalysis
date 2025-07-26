@@ -1,0 +1,8 @@
+https://dagshub.com/soniakashyap001/MLOpsSentimentAnalysis.mlflow
+import dagshub
+dagshub.init(repo_owner='soniakashyap001', repo_name='MLOpsSentimentAnalysis', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)

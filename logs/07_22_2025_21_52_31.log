@@ -1,0 +1,7 @@
+[ 2025-07-22 21:52:32,014 ] dagshub - INFO - Accessing as soniakashyap001
+[ 2025-07-22 21:52:32,210 ] dagshub - INFO - Initialized MLflow to track repo "soniakashyap001/MLOpsSentimentAnalysis"
+[ 2025-07-22 21:52:32,211 ] dagshub - INFO - Repository soniakashyap001/MLOpsSentimentAnalysis initialized!
+[ 2025-07-22 21:52:32,736 ] root - INFO - Model loaded from ./models/model.pkl
+[ 2025-07-22 21:52:32,739 ] root - INFO - Data loaded from ./data/processed/test_bow.csv
+[ 2025-07-22 21:52:32,742 ] root - INFO - Model evaluation metrics calculated
+[ 2025-07-22 21:52:32,742 ] root - INFO - Metrics saved to reports/metrics.json
